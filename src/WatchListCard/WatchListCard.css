@@ -1,0 +1,39 @@
+.mainCard{
+position: relative;
+width: 98%;
+height: 120px;
+border-bottom: 1px solid lightgray;
+margin: 10px;
+}
+.wCardimg img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.wCardtitle{
+position: absolute;
+left: 230px;
+top: 50px;
+}
+.wCardvote{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+.wdeleted{
+    position: absolute;
+    left: 850px;
+    top: 50px;
+    font-size: medium;
+    font-weight: 700;
+    color: red;
+    cursor: pointer;
+}
+.wgonere{
+    position: absolute;
+    left: 700px;
+    top: 50px;
+}

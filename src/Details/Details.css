@@ -1,0 +1,15 @@
+.castMembers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.creww{
+    background: #f2e0ac;
+    margin: 20px 20px 40px 20px;
+    padding-bottom: 10px;color: black;
+}
+.castt{
+    background: #ebd2fc;
+    margin: 20px 20px 40px 20px;
+    padding-bottom: 10px;
+    color: black;
+}

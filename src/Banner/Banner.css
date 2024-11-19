@@ -1,0 +1,17 @@
+
+.banner{
+    position: relative;
+}
+.bannerCard{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.bannertitle{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+}

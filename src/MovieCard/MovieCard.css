@@ -1,0 +1,53 @@
+.movieCard{
+    width: 245px;
+    height: 245px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.movieCard:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+
+.movieCard img{
+    width: 100%;
+    height: 100%;
+}
+.titlecard{
+    position: absolute;
+    width: 100%;
+    /* height: 44px; */
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: black;
+    opacity: 0.5;
+    font-style: oblique;
+    /* padding: 20px; */
+    font-size: 18px;
+}
+.todetails{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background: gray;
+    color: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration-line: none;
+    font-weight: 600;
+}
+.addrremove{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 23px;
+}

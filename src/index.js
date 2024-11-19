@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter,Route,Switch,Routes } from 'react-router-dom';
+import HomePage from './Pages/HomePage/HomePage';
+import DetailsPage from './Pages/DetailsPage/DetailsPage';
+import NotFound from './Pages/NotFound/NotFound';
+import { Provider } from 'react-redux';
+import Store from './Store/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <Provider store={Store}>
+    <App/>
+    </Provider>
   </React.StrictMode>
 );
 
